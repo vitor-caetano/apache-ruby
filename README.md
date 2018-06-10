@@ -230,5 +230,5 @@ ar
 
 ```bash
 $ docker run --name ar -dit -p 80:80 -p 443:443 docker.icasei.com.br/apache-ruby
-
+$ wscat -c ws://painel.icasei.com.br/cable
 ```
